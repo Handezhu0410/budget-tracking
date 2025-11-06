@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 start_date=start_date.isoformat() if start_date else '',
 end_date=end_date.isoformat() if end_date else '',
-budget=stats['budget'])
+budget=stats['budget']
 
 
 from datetime import timedelta
